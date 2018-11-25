@@ -52,9 +52,9 @@
                                                                 href="/product/<?php echo e($product->slug); ?>"><?php echo e($product->product_name); ?></a>
                                                     </h6>
 
-                                                    <div class="product_price"><?php echo e(number_format($product->product_price)); ?> ₺<span><?php echo e(number_format($product->original_price )); ?>
+                                                    <div class="product_price"><?php echo e(number_format($product->product_price)); ?> Bath<span><?php echo e(number_format($product->original_price )); ?>
 
-                                                            ₺</span></div>
+                                                            Bath</span></div>
 
                                                     <input type="number" class="quantity" id="quantity" name="quantity" value="1" style="width: 50px; margin-right: 10px;">
                                                 </div>
